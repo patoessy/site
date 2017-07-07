@@ -1,0 +1,101 @@
+/*Targetting all devices*/
+
+/*Both login and register pages*/
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	height: 90%;
+	margin: auto auto;
+	background: url(images/back.jpeg);
+	background-attachment: fixed;
+}
+#header{
+	width: 98%;
+	height: 20%;
+}
+h2{
+	font-family:serif;
+	font-style: bold; 
+	text-transform: capitalize;
+	color: brown;
+	text-align: center;
+}
+#table2 td{
+	border-left: 1px solid;
+	border-right:1px solid;
+	border-collapse: collapse;
+}
+#login-div{
+		padding: 2%;
+		padding-top: 0px;
+		background-color: #f8e;
+		border: 1px ridge grey;
+		border-radius: 10px;
+		margin-bottom: 20px;
+		padding-bottom: 5px;
+	}
+	#table1{
+		width: 50%;
+
+	}
+	#table1 td{
+		border:none;
+	}
+
+/*For registration*/
+#register{
+	background-color: #ffff8f;
+	border: 1px ridge grey;
+	border-radius: 10px;
+	width: 50%;
+	padding-bottom: 13%;
+	margin-right: 20%;
+}
+h2{
+	font-family: sans-serif;
+	
+}
+td{
+	text-align: center;
+}
+
+/*Target smartphones*/
+@media only screen and (max-width:480px){
+	body{
+		background-color: #546546;
+	}
+	#main{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: stretch;
+		width: 100%;
+		height: auto;
+		margin: auto auto;
+		border:1px black solid;
+	}
+	#header{
+		display: flex;
+		height: 120px;
+	}
+	#login-div{
+		background-color: #f8e;
+		border: 1px ridge grey;
+		border-radius: 10px;
+	}
+	#table1{
+		width: 30%;
+
+	}
+	#table1 td{
+		border:none;
+	}
+	#table2 td{
+	border-left: 1px solid;
+	border-right:1px solid;
+	border-collapse: collapse;
+	margin-left: 5%;
+	}
+}

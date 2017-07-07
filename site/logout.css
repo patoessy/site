@@ -1,0 +1,16 @@
+#body{
+	width: 100%;
+	height: 10%;
+	background-color: #ff875d;
+	border:solid 1px;
+	margin-top: 20%;
+}
+
+@media only screen and (max-width: 480px){
+	#body{
+	width: 100%;
+	height: 10%;
+	background-color: #ff4664;
+	border:solid 1px;
+	margin-top: 25%;
+}
